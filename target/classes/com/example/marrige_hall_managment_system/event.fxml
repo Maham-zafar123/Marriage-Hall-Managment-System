@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="1527.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="254.0" fitWidth="1539.0" layoutX="-4.0" layoutY="-5.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/1709603228441.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="348.0" layoutY="276.0" prefHeight="78.0" prefWidth="719.0" text="SELECT YOURS EVENT WITH US" textFill="#1b1bae">
+         <font>
+            <Font name="Algerian" size="50.0" />
+         </font>
+      </Label>
+      <Text fill="#1b1bae" layoutX="419.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Name" wrappingWidth="182.50787353515602">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eventname_textfield" layoutX="717.0" layoutY="395.0" prefHeight="25.0" prefWidth="221.0" style="-fx-border-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="402.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Event Type" wrappingWidth="182.50787353515602">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eventype_textfield" layoutX="717.0" layoutY="453.0" prefHeight="25.0" prefWidth="221.0" style="-fx-border-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="395.0" layoutY="525.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Starting Time" wrappingWidth="182.50787353515602">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eventstartingtime_textfield" layoutX="717.0" layoutY="505.0" prefHeight="25.0" prefWidth="221.0" style="-fx-border-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="395.0" layoutY="576.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ending Time" wrappingWidth="182.50787353515602">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="eventEndingTime_textfield" layoutX="717.0" layoutY="556.0" prefHeight="25.0" prefWidth="221.0" style="-fx-border-color: #1b1bae;" />
+      <DatePicker fx:id="date_event" cache="true" layoutX="713.0" layoutY="606.0" prefHeight="25.0" prefWidth="229.0" style="-fx-background-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="384.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE OF EVENT" wrappingWidth="182.50787353515625">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#1b1bae" layoutX="362.0" layoutY="673.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Guests Expercted" wrappingWidth="248.10787963867165">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="noOfPersons" layoutX="717.0" layoutY="653.0" prefHeight="25.0" prefWidth="221.0" style="-fx-border-color: #1b1bae;" />
+      <Button fx:id="event_next_btn" layoutX="539.0" layoutY="716.0" mnemonicParsing="false" onAction="#event_next_btn_clicked" prefHeight="48.0" prefWidth="215.0" style="-fx-background-color: #1b1bae;" text="Next →" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="27.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

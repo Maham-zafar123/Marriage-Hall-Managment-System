@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="1527.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.marrige_hall_managment_system.Provide_Information_Controller">
+   <children>
+      <ImageView fitHeight="799.0" fitWidth="759.0" layoutX="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/dsc1107-x3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="883.0" layoutY="67.0" prefHeight="78.0" prefWidth="550.0" text="EVENT BOOKING FORM" textFill="#1b1bae">
+         <font>
+            <Font name="Algerian" size="50.0" />
+         </font>
+      </Label>
+      <TextField fx:id="user_name_textField" layoutX="1111.0" layoutY="191.0" prefHeight="27.0" prefWidth="237.0" style="-fx-border-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="914.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME" wrappingWidth="64.7623291015625">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <Text fill="#1b1bae" layoutX="905.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail" wrappingWidth="92.76239013671852">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user_email_textField" layoutX="1111.0" layoutY="242.0" prefHeight="27.0" prefWidth="237.0" style="-fx-border-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="905.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CNIC NO" wrappingWidth="104.76239013671875">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user_cnic_textField" layoutX="1111.0" layoutY="304.0" prefHeight="27.0" prefWidth="237.0" style="-fx-border-color: #1b1bae;" />
+      <Text fill="#1b1bae" layoutX="883.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTACT NO" wrappingWidth="148.9078125000001">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user_contactno_textField" layoutX="1113.0" layoutY="361.0" prefHeight="27.0" prefWidth="237.0" style="-fx-border-color: #1b1bae;" />
+      <Button fx:id="booking_next_btn" layoutX="998.0" layoutY="553.0" mnemonicParsing="false" onAction="#booking_next_btn_clicked" prefHeight="48.0" prefWidth="215.0" style="-fx-background-color: #1b1bae;" text="NEXT →" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="27.0" />
+         </font>
+      </Button>
+      <Text fill="#1b1bae" layoutX="914.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" wrappingWidth="148.9078125000001">
+         <font>
+            <Font name="Courier New Bold" size="23.0" />
+         </font>
+      </Text>
+      <TextField fx:id="user_address_textField" layoutX="1111.0" layoutY="441.0" prefHeight="27.0" prefWidth="245.0" style="-fx-border-color: #1b1bae;" />
+   </children>
+</Pane>

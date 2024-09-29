@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="792.0" prefWidth="1538.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.marrige_hall_managment_system.MarriageHallSelectionController">
+   <children>
+      <ImageView fitHeight="799.0" fitWidth="1546.0" layoutX="-2.0" layoutY="-4.0" opacity="0.56" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/festive-background-shining-confetti-stars-on-white-background-christmas-wedding-birthday-free-photo.jpeg" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GOLDENROD" height="174.0" layoutX="372.0" layoutY="78.0" stroke="BLACK" strokeType="INSIDE" width="816.0" />
+      <Text fill="#530808" layoutX="395.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the Ideal VENue 🎀 for Your Special Event🌃" wrappingWidth="742.90625">
+         <font>
+            <Font name="Algerian" size="48.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="227.0" fitWidth="325.0" layoutX="33.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/dsc1107-x3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="216.0" fitWidth="318.0" layoutX="430.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/Small-Living-Room-With-Tv-Beautiful-Pretty-Green-Living.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="firstmarriagehall" layoutX="24.0" layoutY="649.0" onAction="#firstmarriagehall_btn" prefHeight="41.0" prefWidth="371.0" text="Bandhan marriage Hall " textAlignment="RIGHT" textFill="#9e2020">
+         <font>
+            <Font name="Algerian" size="26.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="secondmarriagehall" layoutX="394.0" layoutY="649.0" onAction="#secondmarriagehall_btn" text="Dewan-e-Khaas Banquet hall " textFill="#9e2020">
+         <font>
+            <Font name="Algerian" size="26.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fitHeight="216.0" fitWidth="318.0" layoutX="820.0" layoutY="390.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/best-hotels-of-2015-los-angeles-wedding-millennium-biltmore-hotel-wallpaper-preview.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="thirdmarriagehall" layoutX="820.0" layoutY="649.0" onAction="#thirdmarriagehall_btn" text="Bel Avenir Event Complex" textFill="#9e2020">
+         <font>
+            <Font name="Algerian" size="26.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fitHeight="216.0" fitWidth="318.0" layoutX="1202.0" layoutY="388.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/white-love-happiness-blue-lamp-hd-wallpaper-preview.jpg" />
+         </image>
+      </ImageView>
+      <Hyperlink fx:id="forthmarriagehall" layoutX="1202.0" layoutY="642.0" onAction="#forthmarriagehall_btn" text="Mughal-e-Azam Fort" textFill="#9e2020">
+         <font>
+            <Font name="Algerian" size="26.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</Pane>

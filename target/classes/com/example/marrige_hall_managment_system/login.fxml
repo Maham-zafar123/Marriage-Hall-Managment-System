@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="794.0" prefWidth="1544.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.marrige_hall_managment_system.CustomerLoginController">
+   <children>
+      <ImageView fitHeight="800.0" fitWidth="1544.0" layoutY="-6.0" pickOnBounds="true">
+         <image>
+            <Image url="file:/D:/newfolder/Marrige%20Hall%20Managment%20system/src/main/aesthetic-abstract-modern-brown-background-illustration-perfect-for-wallpaper-backdrop-postcard-background-banner-vector.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="SADDLEBROWN" layoutX="632.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LOGIN ">
+         <font>
+            <Font name="Courier New Bold Italic" size="72.0" />
+         </font>
+      </Text>
+      <Text fill="SADDLEBROWN" layoutX="632.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address" wrappingWidth="213.5999999999999">
+         <font>
+            <Font name="Berlin Sans FB" size="25.0" />
+         </font>
+      </Text>
+      <TextField fx:id="usernamaetextfield" layoutX="632.0" layoutY="329.0" prefHeight="46.0" prefWidth="213.0" style="-fx-border-color: #8B4513;" />
+      <Text fill="SADDLEBROWN" layoutX="643.0" layoutY="444.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="190.41358947753906">
+         <font>
+            <Font name="Berlin Sans FB" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="cust_login_btn" layoutX="677.0" layoutY="599.0" mnemonicParsing="false" onAction="#cust_login_btn_clicked" prefHeight="46.0" prefWidth="122.0" style="-fx-background-color: Green;" text="Submit" textFill="#371ad9">
+         <font>
+            <Font name="Algerian" size="22.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordtextfield" layoutX="628.0" layoutY="482.0" prefHeight="46.0" prefWidth="220.0" style="-fx-border-color: #8B4513;" />
+      <Button fx:id="cust_signup_btn" layoutX="520.0" layoutY="678.0" mnemonicParsing="false" onAction="#cust_signup_btn_clicked" prefHeight="46.0" prefWidth="410.0" style="-fx-background-color: Brown;" text="Do not have any account Create new account" textFill="#faf4f4">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="messagelabel" layoutX="599.0" layoutY="555.0" prefHeight="19.0" prefWidth="438.0" textAlignment="CENTER" textFill="#bf1c1c">
+         <font>
+            <Font name="Algerian" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
